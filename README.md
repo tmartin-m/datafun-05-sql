@@ -12,6 +12,7 @@ https://github.com/denisecase/pro-analytics-01/blob/main/01-machine-setup/MACHIN
 ```
 git clone https://github.com/youraccount/yourrepo
 ```
+- File > Preferences > Settings > Search 'terminal.integrated.cwd' > update file pathway
 ## If starting from scratch only : Add key files such as .gitignore and requirements.txt
   - https://github.com/denisecase/pro-analytics-01/blob/main/02-project-initialization/03-add-gitignore-and-requirements.md
   - Create a new file in your root repo folder named exactly: .gitignore IMPORTANT: Spelling, capitalization, and name are critical. If the name or location is not exact, it will not work. Find the .gitignore file in the root of this pro-analytics-01 repo and paste the entire contents into your .gitignore file. This is a good starting point for many Python projects. Actual .gitignore contents will vary by project.
@@ -75,13 +76,13 @@ py -m pip install -r requirements.txt
 py myfile.py
 ```
 - https://github.com/denisecase/pro-analytics-01/blob/main/03-repeatable-workflow/04b-activate-and-run-jupyter-notebook.md
-      - Open the project notebook in VS Code. The file will have a .ipynb extension.
-      - If prompted, select a Python interpreter that corresponds to your .venv.
-      - If not prompted, click the kernel selector in the top-right corner of the notebook editor and choose the interpreter associated with your Python Environment / .venv.
-      - Or:
-        - From VS Code Menu, select View / Command Palette... (CTRL SHIFT P)
-        - Type: Python: Select Interpreter
-        - Choose your .venv from the list
+    - Open the project notebook in VS Code. The file will have a .ipynb extension.
+    - If prompted, select a Python interpreter that corresponds to your .venv.
+    - If not prompted, click the kernel selector in the top-right corner of the notebook editor and choose the interpreter associated with your Python Environment / .venv.
+    - Or:
+    - From VS Code Menu, select View / Command Palette... (CTRL SHIFT P)
+    - Type: Python: Select Interpreter
+    - Choose your .venv from the list
 ## Modify Code and test
   - https://github.com/denisecase/pro-analytics-01/blob/main/03-repeatable-workflow/05-modify-and-test.md
 ## Save
