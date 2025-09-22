@@ -74,7 +74,7 @@ py -m pip install -r requirements.txt
 ```
 py myfile.py
 ```
-    - https://github.com/denisecase/pro-analytics-01/blob/main/03-repeatable-workflow/04b-activate-and-run-jupyter-notebook.md
+- https://github.com/denisecase/pro-analytics-01/blob/main/03-repeatable-workflow/04b-activate-and-run-jupyter-notebook.md
       - Open the project notebook in VS Code. The file will have a .ipynb extension.
       - If prompted, select a Python interpreter that corresponds to your .venv.
       - If not prompted, click the kernel selector in the top-right corner of the notebook editor and choose the interpreter associated with your Python Environment / .venv.
